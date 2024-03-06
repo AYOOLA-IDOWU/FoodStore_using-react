@@ -5,7 +5,7 @@ import classes from './header.module.css'
 
 const Header = () => {
     const user={
-        name: 'john',
+        name: 'IDOWU',
     }
 
     const cart={
@@ -19,7 +19,7 @@ const Header = () => {
     <header className={classes.header}>
          <div className={classes.container}>
             <Link to="/" className={classes.logo}>
-            Food Mine!
+            Food Store!
             </Link>
             <nav>
                 <ul>
